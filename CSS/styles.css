@@ -169,6 +169,8 @@ main figure {
   width: 24rem;
   height: 24rem;
   border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 main figure .eye {
   width: 100%;
@@ -178,6 +180,8 @@ main figure .eye {
   align-items: center;
   background-color: hsla(178, 100%, 50%, 0.65);
   opacity: 0;
+  transition: 0.4s;
+  border: 1rem;
 }
 main figure .eye:hover {
   opacity: 1;
@@ -186,6 +190,8 @@ main h1 {
   font-size: 2rem;
   font-weight: 700;
   color: var(--White);
+  cursor: pointer;
+  transform: 0.4s;
 }
 main h1:hover {
   color: var(--Cyan);
@@ -228,6 +234,7 @@ main .author p {
 }
 main .author a {
   color: var(--White);
+  transition: 0.4s;
 }
 main .author a:hover {
   color: var(--Cyan);
